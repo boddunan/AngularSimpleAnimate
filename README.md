@@ -22,3 +22,7 @@ Angular 2+ directive to slide-up and slide-down an element such as vertical menu
   your content here..
 &lt;/div&gt;</code>
 </pre>
+
+## Demo
+
+https://angular-vqe1nr.stackblitz.io
