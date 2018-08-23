@@ -15,7 +15,7 @@ export class AnimateDirective implements AfterViewInit {
   	ngAfterViewInit(): void {
 		
     		this.target = document.querySelector('#'+this.el.nativeElement.getAttribute('target'));
-    		this.initialHeight = this.target.offsetHeight + 20;
+    		this.initialHeight = this.target.clientHeight + 20;
     		this.expanded = false;
 
 		this.renderer.setStyle(this.target, 'overflow', 'hidden');
